@@ -7964,5 +7964,22 @@
       "patrulhas": 12,
       "publico": 80000
     }
+  },
+  {
+    "id": "local-1782038114387",
+    "dateISO": "2026-06-23",
+    "dateLabel": "23/06/2026",
+    "operationTitle": "Novo registro operacional",
+    "category": "São João",
+    "sheetName": "LOCAL",
+    "subtitle": "Novo cadastro local",
+    "metrics": {},
+    "groupedMetrics": [],
+    "sourceType": "local",
+    "highlights": {
+      "efetivo": 0,
+      "patrulhas": 0,
+      "publico": 0
+    }
   }
 ]
