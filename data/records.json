@@ -7354,7 +7354,7 @@
       "VEÍCULOS 4 ABORDADOS": 10,
       "VEÍCULOS REMOVIDOS": 0,
       "USO DO ETILÔMETRO": 10,
-      "FLAGRANTE": 0,
+      "FLAGRANTE": 1,
       "TCO": 0,
       "CONDUZIDOS A DP": 0,
       "ARMAS DE FOGO APREENDIDAS": 0,
@@ -7368,7 +7368,7 @@
       "LATROCÍNIO": 0,
       "TENTATIVA DE HOMICÍDIO": 0,
       "LESÃO CORPORAL": 0,
-      "VIAS DE FATO": 0
+      "VIAS DE FATO": 1
     },
     "groupedMetrics": [
       {
@@ -7414,7 +7414,7 @@
       {
         "group": "RESULTADOS ALCANÇADOS",
         "metric": "FLAGRANTE",
-        "value": 0
+        "value": 1
       },
       {
         "group": "RESULTADOS ALCANÇADOS",
@@ -7484,7 +7484,7 @@
       {
         "group": "PRINCIPAIS OCORRÊNCIAS",
         "metric": "VIAS DE FATO",
-        "value": 0
+        "value": 1
       }
     ],
     "sourceType": "local",
