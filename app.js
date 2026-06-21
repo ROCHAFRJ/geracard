@@ -102,6 +102,24 @@ const APP_BASE = {"title": "Painel Oficial de Acompanhamento Operacional", "subt
 
     function fmt(n) { return new Intl.NumberFormat('pt-BR', { maximumFractionDigits: 0 }).format(Number(n || 0)); }
 
+    function formatDateDisplay(iso) {
+      if (!iso || !/^\d{4}-\d{2}-\d{2}$/.test(String(iso))) return '';
+      return String(iso).split('-').reverse().join('/');
+    }
+
+    function parseDateInput(value) {
+      const raw = String(value || '').trim();
+      if (!raw) return '';
+      if (/^\d{4}-\d{2}-\d{2}$/.test(raw)) return raw;
+      const br = raw.match(/^(\d{2})\/(\d{2})\/(\d{4})$/);
+      if (br) return `${br[3]}-${br[2]}-${br[1]}`;
+      return '';
+    }
+
+    function setDateInputValue(input, iso) {
+      if (input) input.value = formatDateDisplay(iso);
+    }
+
     function titleCase(text) {
       return (text || '').toLowerCase().replace(/(^|\s|\/)([a-zà-ú])/g, (m,p1,p2) => p1 + p2.toUpperCase());
     }
@@ -153,14 +171,18 @@ const APP_BASE = {"title": "Painel Oficial de Acompanhamento Operacional", "subt
       APP_BASE.dateMax = dateMax;
       APP_BASE.recordCount = list.length;
       if (startDate) {
-        startDate.min = dateMin;
-        startDate.max = dateMax;
-        if (!startDate.value || startDate.value < dateMin || startDate.value > dateMax) startDate.value = dateMin;
+        startDate.dataset.minIso = dateMin;
+        startDate.dataset.maxIso = dateMax;
+        const currentStart = parseDateInput(startDate.value);
+        const safeStart = currentStart && currentStart >= dateMin && currentStart <= dateMax ? currentStart : dateMin;
+        setDateInputValue(startDate, safeStart);
       }
       if (endDate) {
-        endDate.min = dateMin;
-        endDate.max = dateMax;
-        if (!endDate.value || endDate.value < dateMin || endDate.value > dateMax) endDate.value = dateMax;
+        endDate.dataset.minIso = dateMin;
+        endDate.dataset.maxIso = dateMax;
+        const currentEnd = parseDateInput(endDate.value);
+        const safeEnd = currentEnd && currentEnd >= dateMin && currentEnd <= dateMax ? currentEnd : dateMax;
+        setDateInputValue(endDate, safeEnd);
       }
       const countTag = document.getElementById('tagRecordCount');
       const rangeTag = document.getElementById('tagDateRange');
@@ -169,13 +191,16 @@ const APP_BASE = {"title": "Painel Oficial de Acompanhamento Operacional", "subt
     }
 
     function populateCategorySelect() {
-      categorySelect.innerHTML = categories().map(c => `<option value="${c}">${c}</option>`).join('');
-      if (!categorySelect.value) categorySelect.value = 'Todas';
+      const current = categorySelect.value || 'Todas';
+      const options = categories();
+      categorySelect.innerHTML = options.map(c => `<option value="${c}">${c}</option>`).join('');
+      categorySelect.value = options.includes(current) ? current : 'Todas';
     }
 
     function filteredRecords() {
-      const s = startDate.value;
-      const e = endDate.value;
+      let s = parseDateInput(startDate.value);
+      let e = parseDateInput(endDate.value);
+      if (s && e && s > e) [s, e] = [e, s];
       const cat = categorySelect.value || 'Todas';
       return appRecords
         .map(normalizeRecord)
@@ -230,19 +255,70 @@ const APP_BASE = {"title": "Painel Oficial de Acompanhamento Operacional", "subt
         </div>`).join('');
     }
 
-    function renderDetails(list) {
+    function buildDetailRows(list, selectedRecord) {
+      const source = selectedRecord && list.some(r => r.id === selectedRecord.id) ? [selectedRecord] : list;
       const rows = [];
-      list.forEach(rec => (rec.groupedMetrics || []).forEach(m => {
+      source.forEach(rec => (rec.groupedMetrics || []).forEach(m => {
         const val = Number(m.value || 0);
-        if (val > 0) rows.push(`
-          <tr>
-            <td class="mono">${rec.dateLabel}</td>
-            <td>${titleCase(m.group)}</td>
-            <td>${titleCase(m.metric)}</td>
-            <td class="mono">${fmt(val)}</td>
-          </tr>`);
+        if (val > 0) rows.push({
+          data: rec.dateLabel,
+          operacao: rec.operationTitle,
+          grupo: titleCase(m.group),
+          metrica: titleCase(m.metric),
+          valor: val
+        });
       }));
-      detailRows.innerHTML = rows.join('') || '<tr><td colspan="4">Sem dados para o filtro selecionado.</td></tr>';
+      return rows;
+    }
+
+    function renderDetails(list, selectedRecord) {
+      const rows = buildDetailRows(list, selectedRecord);
+      detailRows.innerHTML = rows.map(row => `
+          <tr>
+            <td class="mono">${row.data}</td>
+            <td>${row.grupo}</td>
+            <td>${row.metrica}</td>
+            <td class="mono">${fmt(row.valor)}</td>
+          </tr>`).join('') || '<tr><td colspan="4">Sem dados para o filtro selecionado.</td></tr>';
+    }
+
+    function exportDetailsExcel() {
+      const list = filteredRecords();
+      const selected = getSelectedRecord(list);
+      const rows = buildDetailRows(list, selected).map(row => ({
+        Data: row.data,
+        Grupo: row.grupo,
+        Métrica: row.metrica,
+        Valor: row.valor
+      }));
+
+      if (!rows.length) {
+        alert('Não há métricas detalhadas para exportar com os filtros atuais.');
+        return;
+      }
+
+      const category = (categorySelect.value || 'todas').replace(/\s+/g, '-').toLowerCase();
+      const start = parseDateInput(startDate.value) || 'inicio';
+      const end = parseDateInput(endDate.value) || 'fim';
+      const filename = `metricas-detalhadas-${category}-${start}-${end}.xlsx`;
+
+      if (window.XLSX) {
+        const worksheet = XLSX.utils.json_to_sheet(rows);
+        const workbook = XLSX.utils.book_new();
+        XLSX.utils.book_append_sheet(workbook, worksheet, 'Métricas');
+        XLSX.writeFile(workbook, filename);
+        return;
+      }
+
+      const header = ['Data', 'Grupo', 'Métrica', 'Valor'];
+      const csv = [header.join(';'), ...rows.map(row => [row.Data, row.Grupo, row.Métrica, row.Valor].join(';'))].join('\n');
+      const blob = new Blob(['\ufeff' + csv], { type: 'text/csv;charset=utf-8;' });
+      const url = URL.createObjectURL(blob);
+      const a = document.createElement('a');
+      a.href = url;
+      a.download = filename.replace(/\.xlsx$/, '.csv');
+      a.click();
+      URL.revokeObjectURL(url);
     }
 
     function shortNumber(n) {
@@ -531,7 +607,7 @@ const APP_BASE = {"title": "Painel Oficial de Acompanhamento Operacional", "subt
     }
 
     function newRecord() {
-      const baseDate = startDate.value || APP_BASE.dateMax;
+      const baseDate = parseDateInput(startDate.value) || APP_BASE.dateMax;
       const rec = normalizeRecord({
         id: `local-${Date.now()}`,
         dateISO: baseDate,
@@ -607,7 +683,7 @@ const APP_BASE = {"title": "Painel Oficial de Acompanhamento Operacional", "subt
       if (selected) recordSelect.value = selected.id;
       renderKpis(selected);
       renderSummary(selected);
-      renderDetails(list);
+      renderDetails(list, selected);
       renderCharts(selected);
       renderInstagramCard(selected);
       populateEditor(selected);
@@ -620,8 +696,8 @@ const APP_BASE = {"title": "Painel Oficial de Acompanhamento Operacional", "subt
 
     document.getElementById('applyBtn').addEventListener('click', () => refreshAll(recordSelect.value));
     document.getElementById('resetBtn').addEventListener('click', () => {
-      startDate.value = APP_BASE.dateMin;
-      endDate.value = APP_BASE.dateMax;
+      setDateInputValue(startDate, APP_BASE.dateMin);
+      setDateInputValue(endDate, APP_BASE.dateMax);
       categorySelect.value = 'Todas';
       refreshAll();
     });
@@ -631,9 +707,10 @@ const APP_BASE = {"title": "Painel Oficial de Acompanhamento Operacional", "subt
     document.getElementById('deleteBtn').addEventListener('click', deleteCurrentLocal);
     document.getElementById('restoreBtn').addEventListener('click', restoreBase);
     document.getElementById('exportBtn').addEventListener('click', exportJson);
+    document.getElementById('exportExcelBtn').addEventListener('click', exportDetailsExcel);
     document.getElementById('importBtn').addEventListener('click', () => document.getElementById('importFile').click());
     document.getElementById('importFile').addEventListener('change', (e) => { if (e.target.files[0]) importJson(e.target.files[0]); });
     categorySelect.addEventListener('change', () => refreshAll(recordSelect.value));
-    recordSelect.addEventListener('change', () => { const list = filteredRecords(); const rec = getSelectedRecord(list); renderKpis(rec); renderSummary(rec); renderCharts(rec); populateEditor(rec); });
+    recordSelect.addEventListener('change', () => { const list = filteredRecords(); const rec = getSelectedRecord(list); renderKpis(rec); renderSummary(rec); renderDetails(list, rec); renderCharts(rec); populateEditor(rec); });
     startDate.addEventListener('change', () => refreshAll(recordSelect.value));
     endDate.addEventListener('change', () => refreshAll(recordSelect.value));

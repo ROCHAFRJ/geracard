@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-  <title>Painel Oficial de Acompanhamento Operacional - CPR-CN</title>
+  <title>Painel Oficial de Acompanhamento Operacional</title>
   <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.3/dist/chart.umd.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/html2canvas@1.4.1/dist/html2canvas.min.js"></script>
   <style>
@@ -203,11 +203,11 @@
         <div class="filters">
           <div class="field">
             <label>Data inicial</label>
-            <input id="startDate" type="date" min="2021-12-12" max="2026-06-24" value="2021-12-12">
+            <input id="startDate" type="text" inputmode="numeric" placeholder="dd/mm/aaaa ou aaaa-mm-dd" value="12/12/2021" autocomplete="off">
           </div>
           <div class="field">
             <label>Data final</label>
-            <input id="endDate" type="date" min="2021-12-12" max="2026-06-24" value="2026-06-24">
+            <input id="endDate" type="text" inputmode="numeric" placeholder="dd/mm/aaaa ou aaaa-mm-dd" value="24/06/2026" autocomplete="off">
           </div>
           <div class="field">
             <label>Tipo de operação</label>
@@ -224,6 +224,7 @@
           <button class="secondary" id="newBtn">Novo cadastro</button>
           <button class="primary" id="exportCardBtn">Exportar card Instagram</button>
           <button class="secondary" id="exportBtn">Exportar JSON</button>
+          <button class="secondary" id="exportExcelBtn">Exportar Excel</button>
           <input id="importFile" type="file" accept="application/json" style="display:none;">
           <button class="secondary" id="importBtn">Importar JSON</button>
         </div>
@@ -271,7 +272,7 @@
     <section class="panel">
       <div class="panel-head"><h2>Cadastro e edição local</h2></div>
       <div class="panel-body edit-layout">
-        <div class="edit-note">Esta área permite cadastrar novos registros e editar os dados localmente no navegador. Os dados da planilha original permanecem preservados; as alterações ficam disponíveis no próprio navegador e podem ser exportadas/importadas em JSON.</div>
+        <div class="edit-note">Esta área permite cadastrar novos registros e editar os dados operacionais. Nesta versão, as alterações podem ser sincronizadas com o repositório configurado no GitHub e também exportadas em JSON ou Excel.</div>
         <div class="filters">
           <div class="field"><label>Data do registro</label><input id="editDate" type="date"></div>
           <div class="field"><label>Título da operação</label><input id="editTitle" type="text" placeholder="Ex.: Operação São João"></div>
@@ -303,7 +304,7 @@
             <tbody id="detailRows"></tbody>
           </table>
         </div>
-        <div class="footer-note">A tabela detalhada lista somente métricas com valor maior que zero, sem a coluna de categoria, conforme solicitado.</div>
+        <div class="footer-note">A tabela detalhada lista somente métricas com valor maior que zero, respeita os filtros aplicados e acompanha o registro em destaque selecionado.</div>
       </div>
     </section>
   </div>
@@ -373,6 +374,7 @@
     </div>
   </div>
 
+  <script src="https://cdn.jsdelivr.net/npm/xlsx@0.18.5/dist/xlsx.full.min.js"></script>
   <script src="./app.js"></script>
 </body>
 </html>
