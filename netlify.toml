@@ -1,0 +1,21 @@
+[build]
+  publish = "."
+  functions = "netlify/functions"
+
+[[redirects]]
+  from = "/api/health"
+  to = "/.netlify/functions/health"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "/api/load-records"
+  to = "/.netlify/functions/load-records"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "/api/save-records"
+  to = "/.netlify/functions/save-records"
+  status = 200
+  force = true

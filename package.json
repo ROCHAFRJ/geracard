@@ -1,0 +1,14 @@
+{
+  "name": "geracard-pmba-cprcn",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Dashboard PMBA/CPR-CN com exportação de card e persistência automática no GitHub via Netlify Functions",
+  "scripts": {
+    "dev": "netlify dev",
+    "preview": "npx serve .",
+    "test": "node -e \"console.log('ok')\""
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
