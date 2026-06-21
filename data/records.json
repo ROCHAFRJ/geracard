@@ -6612,10 +6612,10 @@
       "EFETIVO": 89,
       "PATRULHAS EMPREGADAS": 12,
       "PÚBLICO ESTIMADO": 60000,
-      "PESSOAS ABORDADAS": 289,
-      "VEÍCULOS 2 ABORDADOS": 12,
-      "VEÍCULOS 4 ABORDADOS": 11,
-      "USO DO ETILÔMETRO": 0,
+      "PESSOAS ABORDADAS": 469,
+      "VEÍCULOS 2 ABORDADOS": 23,
+      "VEÍCULOS 4 ABORDADOS": 43,
+      "USO DO ETILÔMETRO": 42,
       "FLAGRANTE": 0,
       "TCO": 1,
       "CONDUZIDOS A DP": 1,
@@ -6652,17 +6652,17 @@
       {
         "group": "AÇÕES DESENVOLVIDAS",
         "metric": "PESSOAS ABORDADAS",
-        "value": 289
+        "value": 469
       },
       {
         "group": "AÇÕES DESENVOLVIDAS",
         "metric": "VEÍCULOS 2 ABORDADOS",
-        "value": 12
+        "value": 23
       },
       {
         "group": "AÇÕES DESENVOLVIDAS",
         "metric": "VEÍCULOS 4 ABORDADOS",
-        "value": 11
+        "value": 43
       },
       {
         "group": "AÇÕES DESENVOLVIDAS",
@@ -6672,7 +6672,7 @@
       {
         "group": "AÇÕES DESENVOLVIDAS",
         "metric": "USO DO ETILÔMETRO",
-        "value": 0
+        "value": 42
       },
       {
         "group": "RESULTADOS ALCANÇADOS",
