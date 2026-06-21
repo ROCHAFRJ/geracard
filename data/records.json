@@ -6444,10 +6444,10 @@
     }
   },
   {
-    "id": "CPR-CN-2026-06-19",
+    "id": "local-2026-06-19-vltzk",
     "sheetName": "CPR-CN",
     "operationTitle": "SÃO JOÃO DE IRECÊ 2026",
-    "category": "Evento especial",
+    "category": "São João",
     "dateISO": "2026-06-19",
     "dateLabel": "19/06/2026",
     "subtitle": "SÃO JOÃO DE IRECÊ 2026",
@@ -6466,13 +6466,15 @@
       "DROGAS APREENDIDAS": 0,
       "ROUBO": 0,
       "ROUBO DE CELULAR": 0,
-      "FURTO": 0,
+      "FURTO": 2,
       "FURTO DE CELULAR": 6,
       "HOMICÍDIO": 0,
       "LATROCÍNIO": 0,
       "TENTATIVA DE HOMICÍDIO": 0,
       "LESÃO CORPORAL": 0,
-      "VIAS DE FATO": 0
+      "VIAS DE FATO": 0,
+      "VEÍCULOS REMOVIDOS": 0,
+      "ARMAS BRANCAS APREENDIDAS": 0
     },
     "groupedMetrics": [
       {
@@ -6507,6 +6509,11 @@
       },
       {
         "group": "AÇÕES DESENVOLVIDAS",
+        "metric": "VEÍCULOS REMOVIDOS",
+        "value": 0
+      },
+      {
+        "group": "AÇÕES DESENVOLVIDAS",
         "metric": "USO DO ETILÔMETRO",
         "value": 34
       },
@@ -6532,56 +6539,61 @@
       },
       {
         "group": "RESULTADOS ALCANÇADOS",
+        "metric": "ARMAS BRANCAS APREENDIDAS",
+        "value": 0
+      },
+      {
+        "group": "RESULTADOS ALCANÇADOS",
         "metric": "DROGAS APREENDIDAS",
         "value": 0
       },
       {
-        "group": "CRIMES CONTRA O PATRIMÔMIO",
+        "group": "PRINCIPAIS OCORRÊNCIAS",
         "metric": "ROUBO",
         "value": 0
       },
       {
-        "group": "CRIMES CONTRA O PATRIMÔMIO",
+        "group": "PRINCIPAIS OCORRÊNCIAS",
         "metric": "ROUBO DE CELULAR",
         "value": 0
       },
       {
-        "group": "CRIMES CONTRA O PATRIMÔMIO",
+        "group": "PRINCIPAIS OCORRÊNCIAS",
         "metric": "FURTO",
-        "value": 0
+        "value": 2
       },
       {
-        "group": "CRIMES CONTRA O PATRIMÔMIO",
+        "group": "PRINCIPAIS OCORRÊNCIAS",
         "metric": "FURTO DE CELULAR",
         "value": 6
       },
       {
-        "group": "CRIMES CONTRA A PESSOA",
+        "group": "PRINCIPAIS OCORRÊNCIAS",
         "metric": "HOMICÍDIO",
         "value": 0
       },
       {
-        "group": "CRIMES CONTRA A PESSOA",
+        "group": "PRINCIPAIS OCORRÊNCIAS",
         "metric": "LATROCÍNIO",
         "value": 0
       },
       {
-        "group": "CRIMES CONTRA A PESSOA",
+        "group": "PRINCIPAIS OCORRÊNCIAS",
         "metric": "TENTATIVA DE HOMICÍDIO",
         "value": 0
       },
       {
-        "group": "CRIMES CONTRA A PESSOA",
+        "group": "PRINCIPAIS OCORRÊNCIAS",
         "metric": "LESÃO CORPORAL",
         "value": 0
       },
       {
-        "group": "CRIMES CONTRA A PESSOA",
+        "group": "PRINCIPAIS OCORRÊNCIAS",
         "metric": "VIAS DE FATO",
         "value": 0
       }
     ],
-    "sourceType": "base",
+    "sourceType": "local",
     "highlights": {
       "efetivo": 89,
       "patrulhas": 16,
@@ -6589,35 +6601,37 @@
     }
   },
   {
-    "id": "CPR-CN-2026-06-20",
+    "id": "local-2026-06-20-v8xg9",
     "sheetName": "CPR-CN",
     "operationTitle": "SÃO JOÃO DE IRECÊ 2026",
-    "category": "Evento especial",
+    "category": "São João",
     "dateISO": "2026-06-20",
     "dateLabel": "20/06/2026",
     "subtitle": "SÃO JOÃO DE IRECÊ 2026",
     "metrics": {
       "EFETIVO": 89,
-      "PATRULHAS EMPREGADAS": 16,
-      "PÚBLICO ESTIMADO": 75000,
-      "PESSOAS ABORDADAS": 0,
-      "VEÍCULOS 2 ABORDADOS": 0,
-      "VEÍCULOS 4 ABORDADOS": 0,
-      "USO DO ETILÔMETRO": 0,
-      "FLAGRANTE": 0,
-      "TCO": 0,
-      "CONDUZIDOS A DP": 0,
+      "PATRULHAS EMPREGADAS": 12,
+      "PÚBLICO ESTIMADO": 60000,
+      "PESSOAS ABORDADAS": 469,
+      "VEÍCULOS 2 ABORDADOS": 23,
+      "VEÍCULOS 4 ABORDADOS": 43,
+      "USO DO ETILÔMETRO": 42,
+      "FLAGRANTE": 1,
+      "TCO": 1,
+      "CONDUZIDOS A DP": 1,
       "ARMAS DE FOGO APREENDIDAS": 0,
       "DROGAS APREENDIDAS": 0,
       "ROUBO": 0,
       "ROUBO DE CELULAR": 0,
       "FURTO": 0,
-      "FURTO DE CELULAR": 0,
+      "FURTO DE CELULAR": 1,
       "HOMICÍDIO": 0,
       "LATROCÍNIO": 0,
       "TENTATIVA DE HOMICÍDIO": 0,
       "LESÃO CORPORAL": 0,
-      "VIAS DE FATO": 0
+      "VIAS DE FATO": 1,
+      "VEÍCULOS REMOVIDOS": 0,
+      "ARMAS BRANCAS APREENDIDAS": 1
     },
     "groupedMetrics": [
       {
@@ -6628,47 +6642,52 @@
       {
         "group": "ESFORÇO EMPREGADO",
         "metric": "PATRULHAS EMPREGADAS",
-        "value": 16
+        "value": 12
       },
       {
         "group": "ESFORÇO EMPREGADO",
         "metric": "PÚBLICO ESTIMADO",
-        "value": 75000
+        "value": 60000
       },
       {
         "group": "AÇÕES DESENVOLVIDAS",
         "metric": "PESSOAS ABORDADAS",
-        "value": 0
+        "value": 469
       },
       {
         "group": "AÇÕES DESENVOLVIDAS",
         "metric": "VEÍCULOS 2 ABORDADOS",
-        "value": 0
+        "value": 23
       },
       {
         "group": "AÇÕES DESENVOLVIDAS",
         "metric": "VEÍCULOS 4 ABORDADOS",
+        "value": 43
+      },
+      {
+        "group": "AÇÕES DESENVOLVIDAS",
+        "metric": "VEÍCULOS REMOVIDOS",
         "value": 0
       },
       {
         "group": "AÇÕES DESENVOLVIDAS",
         "metric": "USO DO ETILÔMETRO",
-        "value": 0
+        "value": 42
       },
       {
         "group": "RESULTADOS ALCANÇADOS",
         "metric": "FLAGRANTE",
-        "value": 0
+        "value": 1
       },
       {
         "group": "RESULTADOS ALCANÇADOS",
         "metric": "TCO",
-        "value": 0
+        "value": 1
       },
       {
         "group": "RESULTADOS ALCANÇADOS",
         "metric": "CONDUZIDOS A DP",
-        "value": 0
+        "value": 1
       },
       {
         "group": "RESULTADOS ALCANÇADOS",
@@ -6677,67 +6696,72 @@
       },
       {
         "group": "RESULTADOS ALCANÇADOS",
+        "metric": "ARMAS BRANCAS APREENDIDAS",
+        "value": 1
+      },
+      {
+        "group": "RESULTADOS ALCANÇADOS",
         "metric": "DROGAS APREENDIDAS",
         "value": 0
       },
       {
-        "group": "CRIMES CONTRA O PATRIMÔMIO",
+        "group": "PRINCIPAIS OCORRÊNCIAS",
         "metric": "ROUBO",
         "value": 0
       },
       {
-        "group": "CRIMES CONTRA O PATRIMÔMIO",
+        "group": "PRINCIPAIS OCORRÊNCIAS",
         "metric": "ROUBO DE CELULAR",
         "value": 0
       },
       {
-        "group": "CRIMES CONTRA O PATRIMÔMIO",
+        "group": "PRINCIPAIS OCORRÊNCIAS",
         "metric": "FURTO",
         "value": 0
       },
       {
-        "group": "CRIMES CONTRA O PATRIMÔMIO",
+        "group": "PRINCIPAIS OCORRÊNCIAS",
         "metric": "FURTO DE CELULAR",
-        "value": 0
+        "value": 1
       },
       {
-        "group": "CRIMES CONTRA A PESSOA",
+        "group": "PRINCIPAIS OCORRÊNCIAS",
         "metric": "HOMICÍDIO",
         "value": 0
       },
       {
-        "group": "CRIMES CONTRA A PESSOA",
+        "group": "PRINCIPAIS OCORRÊNCIAS",
         "metric": "LATROCÍNIO",
         "value": 0
       },
       {
-        "group": "CRIMES CONTRA A PESSOA",
+        "group": "PRINCIPAIS OCORRÊNCIAS",
         "metric": "TENTATIVA DE HOMICÍDIO",
         "value": 0
       },
       {
-        "group": "CRIMES CONTRA A PESSOA",
+        "group": "PRINCIPAIS OCORRÊNCIAS",
         "metric": "LESÃO CORPORAL",
         "value": 0
       },
       {
-        "group": "CRIMES CONTRA A PESSOA",
+        "group": "PRINCIPAIS OCORRÊNCIAS",
         "metric": "VIAS DE FATO",
-        "value": 0
+        "value": 1
       }
     ],
-    "sourceType": "base",
+    "sourceType": "local",
     "highlights": {
       "efetivo": 89,
-      "patrulhas": 16,
-      "publico": 75000
+      "patrulhas": 12,
+      "publico": 60000
     }
   },
   {
     "id": "CPR-CN-2026-06-21",
     "sheetName": "CPR-CN",
     "operationTitle": "SÃO JOÃO DE IRECÊ 2026",
-    "category": "Evento especial",
+    "category": "Evento Especial",
     "dateISO": "2026-06-21",
     "dateLabel": "21/06/2026",
     "subtitle": "SÃO JOÃO DE IRECÊ 2026",
@@ -6882,7 +6906,7 @@
     "id": "CPR-CN-2026-06-22",
     "sheetName": "CPR-CN",
     "operationTitle": "SÃO JOÃO DE IRECÊ 2026",
-    "category": "Evento especial",
+    "category": "Evento Especial",
     "dateISO": "2026-06-22",
     "dateLabel": "22/06/2026",
     "subtitle": "SÃO JOÃO DE IRECÊ 2026",
@@ -7027,7 +7051,7 @@
     "id": "CPR-CN-2026-06-23",
     "sheetName": "CPR-CN",
     "operationTitle": "SÃO JOÃO DE IRECÊ 2026",
-    "category": "Evento especial",
+    "category": "Evento Especial",
     "dateISO": "2026-06-23",
     "dateLabel": "23/06/2026",
     "subtitle": "SÃO JOÃO DE IRECÊ 2026",
@@ -7172,7 +7196,7 @@
     "id": "CPR-CN-2026-06-24",
     "sheetName": "CPR-CN",
     "operationTitle": "SÃO JOÃO DE IRECÊ 2026",
-    "category": "Evento especial",
+    "category": "Evento Especial",
     "dateISO": "2026-06-24",
     "dateLabel": "24/06/2026",
     "subtitle": "SÃO JOÃO DE IRECÊ 2026",
@@ -7307,6 +7331,320 @@
       }
     ],
     "sourceType": "base",
+    "highlights": {
+      "efetivo": 0,
+      "patrulhas": 0,
+      "publico": 0
+    }
+  },
+  {
+    "id": "local-1782016876912",
+    "dateISO": "2026-06-20",
+    "dateLabel": "20/06/2026",
+    "operationTitle": "REGIÃO DE IRECÊ",
+    "category": "São João",
+    "sheetName": "CPR-CN",
+    "subtitle": "REGIÃO DE IRECÊ",
+    "metrics": {
+      "EFETIVO": 129,
+      "PATRULHAS EMPREGADAS": 22,
+      "PÚBLICO ESTIMADO": 126500,
+      "PESSOAS ABORDADAS": 640,
+      "VEÍCULOS 2 ABORDADOS": 47,
+      "VEÍCULOS 4 ABORDADOS": 54,
+      "VEÍCULOS REMOVIDOS": 0,
+      "USO DO ETILÔMETRO": 42,
+      "FLAGRANTE": 1,
+      "TCO": 2,
+      "CONDUZIDOS A DP": 2,
+      "ARMAS DE FOGO APREENDIDAS": 0,
+      "ARMAS BRANCAS APREENDIDAS": 2,
+      "DROGAS APREENDIDAS": 0,
+      "ROUBO": 0,
+      "ROUBO DE CELULAR": 1,
+      "FURTO": 0,
+      "FURTO DE CELULAR": 0,
+      "HOMICÍDIO": 0,
+      "LATROCÍNIO": 0,
+      "TENTATIVA DE HOMICÍDIO": 0,
+      "LESÃO CORPORAL": 1,
+      "VIAS DE FATO": 2
+    },
+    "groupedMetrics": [
+      {
+        "group": "ESFORÇO EMPREGADO",
+        "metric": "EFETIVO",
+        "value": 129
+      },
+      {
+        "group": "ESFORÇO EMPREGADO",
+        "metric": "PATRULHAS EMPREGADAS",
+        "value": 22
+      },
+      {
+        "group": "ESFORÇO EMPREGADO",
+        "metric": "PÚBLICO ESTIMADO",
+        "value": 126500
+      },
+      {
+        "group": "AÇÕES DESENVOLVIDAS",
+        "metric": "PESSOAS ABORDADAS",
+        "value": 640
+      },
+      {
+        "group": "AÇÕES DESENVOLVIDAS",
+        "metric": "VEÍCULOS 2 ABORDADOS",
+        "value": 47
+      },
+      {
+        "group": "AÇÕES DESENVOLVIDAS",
+        "metric": "VEÍCULOS 4 ABORDADOS",
+        "value": 54
+      },
+      {
+        "group": "AÇÕES DESENVOLVIDAS",
+        "metric": "VEÍCULOS REMOVIDOS",
+        "value": 0
+      },
+      {
+        "group": "AÇÕES DESENVOLVIDAS",
+        "metric": "USO DO ETILÔMETRO",
+        "value": 42
+      },
+      {
+        "group": "RESULTADOS ALCANÇADOS",
+        "metric": "FLAGRANTE",
+        "value": 1
+      },
+      {
+        "group": "RESULTADOS ALCANÇADOS",
+        "metric": "TCO",
+        "value": 2
+      },
+      {
+        "group": "RESULTADOS ALCANÇADOS",
+        "metric": "CONDUZIDOS A DP",
+        "value": 2
+      },
+      {
+        "group": "RESULTADOS ALCANÇADOS",
+        "metric": "ARMAS DE FOGO APREENDIDAS",
+        "value": 0
+      },
+      {
+        "group": "RESULTADOS ALCANÇADOS",
+        "metric": "ARMAS BRANCAS APREENDIDAS",
+        "value": 2
+      },
+      {
+        "group": "RESULTADOS ALCANÇADOS",
+        "metric": "DROGAS APREENDIDAS",
+        "value": 0
+      },
+      {
+        "group": "PRINCIPAIS OCORRÊNCIAS",
+        "metric": "ROUBO",
+        "value": 0
+      },
+      {
+        "group": "PRINCIPAIS OCORRÊNCIAS",
+        "metric": "ROUBO DE CELULAR",
+        "value": 1
+      },
+      {
+        "group": "PRINCIPAIS OCORRÊNCIAS",
+        "metric": "FURTO",
+        "value": 0
+      },
+      {
+        "group": "PRINCIPAIS OCORRÊNCIAS",
+        "metric": "FURTO DE CELULAR",
+        "value": 0
+      },
+      {
+        "group": "PRINCIPAIS OCORRÊNCIAS",
+        "metric": "HOMICÍDIO",
+        "value": 0
+      },
+      {
+        "group": "PRINCIPAIS OCORRÊNCIAS",
+        "metric": "LATROCÍNIO",
+        "value": 0
+      },
+      {
+        "group": "PRINCIPAIS OCORRÊNCIAS",
+        "metric": "TENTATIVA DE HOMICÍDIO",
+        "value": 0
+      },
+      {
+        "group": "PRINCIPAIS OCORRÊNCIAS",
+        "metric": "LESÃO CORPORAL",
+        "value": 1
+      },
+      {
+        "group": "PRINCIPAIS OCORRÊNCIAS",
+        "metric": "VIAS DE FATO",
+        "value": 2
+      }
+    ],
+    "sourceType": "local",
+    "highlights": {
+      "efetivo": 129,
+      "patrulhas": 22,
+      "publico": 126500
+    }
+  },
+  {
+    "id": "local-1782035678941",
+    "dateISO": "2026-06-21",
+    "dateLabel": "21/06/2026",
+    "operationTitle": "REGIÃO DE IRECÊ",
+    "category": "São João",
+    "sheetName": "CPR-CN",
+    "subtitle": "REGIÃO DE IRECÊ",
+    "metrics": {
+      "EFETIVO": 0,
+      "PATRULHAS EMPREGADAS": 0,
+      "PÚBLICO ESTIMADO": 0,
+      "PESSOAS ABORDADAS": 0,
+      "VEÍCULOS 2 ABORDADOS": 0,
+      "VEÍCULOS 4 ABORDADOS": 0,
+      "VEÍCULOS REMOVIDOS": 0,
+      "USO DO ETILÔMETRO": 0,
+      "FLAGRANTE": 0,
+      "TCO": 0,
+      "CONDUZIDOS A DP": 0,
+      "ARMAS DE FOGO APREENDIDAS": 0,
+      "ARMAS BRANCAS APREENDIDAS": 0,
+      "DROGAS APREENDIDAS": 0,
+      "ROUBO": 0,
+      "ROUBO DE CELULAR": 0,
+      "FURTO": 0,
+      "FURTO DE CELULAR": 0,
+      "HOMICÍDIO": 0,
+      "LATROCÍNIO": 0,
+      "TENTATIVA DE HOMICÍDIO": 0,
+      "LESÃO CORPORAL": 0,
+      "VIAS DE FATO": 0
+    },
+    "groupedMetrics": [
+      {
+        "group": "ESFORÇO EMPREGADO",
+        "metric": "EFETIVO",
+        "value": 0
+      },
+      {
+        "group": "ESFORÇO EMPREGADO",
+        "metric": "PATRULHAS EMPREGADAS",
+        "value": 0
+      },
+      {
+        "group": "ESFORÇO EMPREGADO",
+        "metric": "PÚBLICO ESTIMADO",
+        "value": 0
+      },
+      {
+        "group": "AÇÕES DESENVOLVIDAS",
+        "metric": "PESSOAS ABORDADAS",
+        "value": 0
+      },
+      {
+        "group": "AÇÕES DESENVOLVIDAS",
+        "metric": "VEÍCULOS 2 ABORDADOS",
+        "value": 0
+      },
+      {
+        "group": "AÇÕES DESENVOLVIDAS",
+        "metric": "VEÍCULOS 4 ABORDADOS",
+        "value": 0
+      },
+      {
+        "group": "AÇÕES DESENVOLVIDAS",
+        "metric": "VEÍCULOS REMOVIDOS",
+        "value": 0
+      },
+      {
+        "group": "AÇÕES DESENVOLVIDAS",
+        "metric": "USO DO ETILÔMETRO",
+        "value": 0
+      },
+      {
+        "group": "RESULTADOS ALCANÇADOS",
+        "metric": "FLAGRANTE",
+        "value": 0
+      },
+      {
+        "group": "RESULTADOS ALCANÇADOS",
+        "metric": "TCO",
+        "value": 0
+      },
+      {
+        "group": "RESULTADOS ALCANÇADOS",
+        "metric": "CONDUZIDOS A DP",
+        "value": 0
+      },
+      {
+        "group": "RESULTADOS ALCANÇADOS",
+        "metric": "ARMAS DE FOGO APREENDIDAS",
+        "value": 0
+      },
+      {
+        "group": "RESULTADOS ALCANÇADOS",
+        "metric": "ARMAS BRANCAS APREENDIDAS",
+        "value": 0
+      },
+      {
+        "group": "RESULTADOS ALCANÇADOS",
+        "metric": "DROGAS APREENDIDAS",
+        "value": 0
+      },
+      {
+        "group": "PRINCIPAIS OCORRÊNCIAS",
+        "metric": "ROUBO",
+        "value": 0
+      },
+      {
+        "group": "PRINCIPAIS OCORRÊNCIAS",
+        "metric": "ROUBO DE CELULAR",
+        "value": 0
+      },
+      {
+        "group": "PRINCIPAIS OCORRÊNCIAS",
+        "metric": "FURTO",
+        "value": 0
+      },
+      {
+        "group": "PRINCIPAIS OCORRÊNCIAS",
+        "metric": "FURTO DE CELULAR",
+        "value": 0
+      },
+      {
+        "group": "PRINCIPAIS OCORRÊNCIAS",
+        "metric": "HOMICÍDIO",
+        "value": 0
+      },
+      {
+        "group": "PRINCIPAIS OCORRÊNCIAS",
+        "metric": "LATROCÍNIO",
+        "value": 0
+      },
+      {
+        "group": "PRINCIPAIS OCORRÊNCIAS",
+        "metric": "TENTATIVA DE HOMICÍDIO",
+        "value": 0
+      },
+      {
+        "group": "PRINCIPAIS OCORRÊNCIAS",
+        "metric": "LESÃO CORPORAL",
+        "value": 0
+      },
+      {
+        "group": "PRINCIPAIS OCORRÊNCIAS",
+        "metric": "VIAS DE FATO",
+        "value": 0
+      }
+    ],
+    "sourceType": "local",
     "highlights": {
       "efetivo": 0,
       "patrulhas": 0,
