@@ -391,7 +391,7 @@ const APP_BASE = {"title": "Painel Oficial de Acompanhamento Operacional", "subt
       instaEventTitle.innerHTML = formatEventTitle(rec);
       instaUnitTitle.textContent = (rec.sheetName || 'CPR-CN').toUpperCase();
       instaDate.textContent = rec.dateLabel || '';
-      instaMunicipio.textContent = inferMunicipio(rec);
+      instaMunicipio.textContent = 'REGIÃO CENTRO NORTE';
 
       const mainStats = getCardMainStats(rec);
       instaMainStats.innerHTML = mainStats.map(([label, value]) => `
