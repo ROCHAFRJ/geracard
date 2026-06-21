@@ -7493,5 +7493,22 @@
       "patrulhas": 22,
       "publico": 126500
     }
+  },
+  {
+    "id": "local-1782035678941",
+    "dateISO": "2026-06-21",
+    "dateLabel": "21/06/2026",
+    "operationTitle": "Novo registro operacional",
+    "category": "Evento Especial",
+    "sheetName": "LOCAL",
+    "subtitle": "Novo cadastro local",
+    "metrics": {},
+    "groupedMetrics": [],
+    "sourceType": "local",
+    "highlights": {
+      "efetivo": 0,
+      "patrulhas": 0,
+      "publico": 0
+    }
   }
 ]
