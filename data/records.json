@@ -6612,26 +6612,26 @@
       "EFETIVO": 89,
       "PATRULHAS EMPREGADAS": 12,
       "PÚBLICO ESTIMADO": 60000,
-      "PESSOAS ABORDADAS": 0,
-      "VEÍCULOS 2 ABORDADOS": 0,
-      "VEÍCULOS 4 ABORDADOS": 0,
+      "PESSOAS ABORDADAS": 289,
+      "VEÍCULOS 2 ABORDADOS": 12,
+      "VEÍCULOS 4 ABORDADOS": 11,
       "USO DO ETILÔMETRO": 0,
       "FLAGRANTE": 0,
-      "TCO": 0,
-      "CONDUZIDOS A DP": 0,
+      "TCO": 1,
+      "CONDUZIDOS A DP": 1,
       "ARMAS DE FOGO APREENDIDAS": 0,
       "DROGAS APREENDIDAS": 0,
       "ROUBO": 0,
       "ROUBO DE CELULAR": 0,
       "FURTO": 0,
-      "FURTO DE CELULAR": 0,
+      "FURTO DE CELULAR": 1,
       "HOMICÍDIO": 0,
       "LATROCÍNIO": 0,
       "TENTATIVA DE HOMICÍDIO": 0,
       "LESÃO CORPORAL": 0,
-      "VIAS DE FATO": 0,
+      "VIAS DE FATO": 1,
       "VEÍCULOS REMOVIDOS": 0,
-      "ARMAS BRANCAS APREENDIDAS": 0
+      "ARMAS BRANCAS APREENDIDAS": 1
     },
     "groupedMetrics": [
       {
@@ -6652,17 +6652,17 @@
       {
         "group": "AÇÕES DESENVOLVIDAS",
         "metric": "PESSOAS ABORDADAS",
-        "value": 0
+        "value": 289
       },
       {
         "group": "AÇÕES DESENVOLVIDAS",
         "metric": "VEÍCULOS 2 ABORDADOS",
-        "value": 0
+        "value": 12
       },
       {
         "group": "AÇÕES DESENVOLVIDAS",
         "metric": "VEÍCULOS 4 ABORDADOS",
-        "value": 0
+        "value": 11
       },
       {
         "group": "AÇÕES DESENVOLVIDAS",
@@ -6682,12 +6682,12 @@
       {
         "group": "RESULTADOS ALCANÇADOS",
         "metric": "TCO",
-        "value": 0
+        "value": 1
       },
       {
         "group": "RESULTADOS ALCANÇADOS",
         "metric": "CONDUZIDOS A DP",
-        "value": 0
+        "value": 1
       },
       {
         "group": "RESULTADOS ALCANÇADOS",
@@ -6697,7 +6697,7 @@
       {
         "group": "RESULTADOS ALCANÇADOS",
         "metric": "ARMAS BRANCAS APREENDIDAS",
-        "value": 0
+        "value": 1
       },
       {
         "group": "RESULTADOS ALCANÇADOS",
@@ -6722,7 +6722,7 @@
       {
         "group": "PRINCIPAIS OCORRÊNCIAS",
         "metric": "FURTO DE CELULAR",
-        "value": 0
+        "value": 1
       },
       {
         "group": "PRINCIPAIS OCORRÊNCIAS",
@@ -6747,7 +6747,7 @@
       {
         "group": "PRINCIPAIS OCORRÊNCIAS",
         "metric": "VIAS DE FATO",
-        "value": 0
+        "value": 1
       }
     ],
     "sourceType": "local",
