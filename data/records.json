@@ -6616,7 +6616,7 @@
       "VEÍCULOS 2 ABORDADOS": 23,
       "VEÍCULOS 4 ABORDADOS": 43,
       "USO DO ETILÔMETRO": 42,
-      "FLAGRANTE": 0,
+      "FLAGRANTE": 1,
       "TCO": 1,
       "CONDUZIDOS A DP": 1,
       "ARMAS DE FOGO APREENDIDAS": 0,
@@ -6677,7 +6677,7 @@
       {
         "group": "RESULTADOS ALCANÇADOS",
         "metric": "FLAGRANTE",
-        "value": 0
+        "value": 1
       },
       {
         "group": "RESULTADOS ALCANÇADOS",
