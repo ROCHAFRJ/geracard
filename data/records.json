@@ -7354,11 +7354,11 @@
       "VEÍCULOS 4 ABORDADOS": 16,
       "VEÍCULOS REMOVIDOS": 0,
       "USO DO ETILÔMETRO": 0,
-      "FLAGRANTE": 0,
+      "FLAGRANTE": 1,
       "TCO": 2,
       "CONDUZIDOS A DP": 2,
       "ARMAS DE FOGO APREENDIDAS": 0,
-      "ARMAS BRANCAS APREENDIDAS": 1,
+      "ARMAS BRANCAS APREENDIDAS": 2,
       "DROGAS APREENDIDAS": 0,
       "ROUBO": 0,
       "ROUBO DE CELULAR": 1,
@@ -7367,7 +7367,7 @@
       "HOMICÍDIO": 0,
       "LATROCÍNIO": 0,
       "TENTATIVA DE HOMICÍDIO": 0,
-      "LESÃO CORPORAL": 0,
+      "LESÃO CORPORAL": 1,
       "VIAS DE FATO": 2
     },
     "groupedMetrics": [
@@ -7414,7 +7414,7 @@
       {
         "group": "RESULTADOS ALCANÇADOS",
         "metric": "FLAGRANTE",
-        "value": 0
+        "value": 1
       },
       {
         "group": "RESULTADOS ALCANÇADOS",
@@ -7434,7 +7434,7 @@
       {
         "group": "RESULTADOS ALCANÇADOS",
         "metric": "ARMAS BRANCAS APREENDIDAS",
-        "value": 1
+        "value": 2
       },
       {
         "group": "RESULTADOS ALCANÇADOS",
@@ -7479,7 +7479,7 @@
       {
         "group": "PRINCIPAIS OCORRÊNCIAS",
         "metric": "LESÃO CORPORAL",
-        "value": 0
+        "value": 1
       },
       {
         "group": "PRINCIPAIS OCORRÊNCIAS",
