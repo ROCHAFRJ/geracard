@@ -6778,15 +6778,15 @@
       "CONDUZIDOS A DP": 0,
       "ARMAS DE FOGO APREENDIDAS": 0,
       "DROGAS APREENDIDAS": 0,
-      "ROUBO": 1,
+      "ROUBO": 0,
       "ROUBO DE CELULAR": 0,
       "FURTO": 0,
       "FURTO DE CELULAR": 0,
       "HOMICÍDIO": 0,
       "LATROCÍNIO": 0,
       "TENTATIVA DE HOMICÍDIO": 5,
-      "LESÃO CORPORAL": 2,
-      "VIAS DE FATO": 5,
+      "LESÃO CORPORAL": 0,
+      "VIAS DE FATO": 0,
       "VEÍCULOS REMOVIDOS": 0,
       "ARMAS BRANCAS APREENDIDAS": 0
     },
@@ -6864,7 +6864,7 @@
       {
         "group": "PRINCIPAIS OCORRÊNCIAS",
         "metric": "ROUBO",
-        "value": 1
+        "value": 0
       },
       {
         "group": "PRINCIPAIS OCORRÊNCIAS",
@@ -6899,12 +6899,12 @@
       {
         "group": "PRINCIPAIS OCORRÊNCIAS",
         "metric": "LESÃO CORPORAL",
-        "value": 2
+        "value": 0
       },
       {
         "group": "PRINCIPAIS OCORRÊNCIAS",
         "metric": "VIAS DE FATO",
-        "value": 5
+        "value": 0
       }
     ],
     "sourceType": "local",
