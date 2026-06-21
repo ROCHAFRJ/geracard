@@ -7349,26 +7349,26 @@
       "EFETIVO": 129,
       "PATRULHAS EMPREGADAS": 22,
       "PÚBLICO ESTIMADO": 71500,
-      "PESSOAS ABORDADAS": 200,
-      "VEÍCULOS 2 ABORDADOS": 10,
-      "VEÍCULOS 4 ABORDADOS": 10,
+      "PESSOAS ABORDADAS": 423,
+      "VEÍCULOS 2 ABORDADOS": 28,
+      "VEÍCULOS 4 ABORDADOS": 16,
       "VEÍCULOS REMOVIDOS": 0,
-      "USO DO ETILÔMETRO": 10,
+      "USO DO ETILÔMETRO": 0,
       "FLAGRANTE": 0,
-      "TCO": 0,
-      "CONDUZIDOS A DP": 0,
+      "TCO": 2,
+      "CONDUZIDOS A DP": 2,
       "ARMAS DE FOGO APREENDIDAS": 0,
-      "ARMAS BRANCAS APREENDIDAS": 0,
+      "ARMAS BRANCAS APREENDIDAS": 1,
       "DROGAS APREENDIDAS": 0,
       "ROUBO": 0,
-      "ROUBO DE CELULAR": 0,
+      "ROUBO DE CELULAR": 1,
       "FURTO": 0,
       "FURTO DE CELULAR": 0,
       "HOMICÍDIO": 0,
       "LATROCÍNIO": 0,
       "TENTATIVA DE HOMICÍDIO": 0,
       "LESÃO CORPORAL": 0,
-      "VIAS DE FATO": 0
+      "VIAS DE FATO": 2
     },
     "groupedMetrics": [
       {
@@ -7389,17 +7389,17 @@
       {
         "group": "AÇÕES DESENVOLVIDAS",
         "metric": "PESSOAS ABORDADAS",
-        "value": 200
+        "value": 423
       },
       {
         "group": "AÇÕES DESENVOLVIDAS",
         "metric": "VEÍCULOS 2 ABORDADOS",
-        "value": 10
+        "value": 28
       },
       {
         "group": "AÇÕES DESENVOLVIDAS",
         "metric": "VEÍCULOS 4 ABORDADOS",
-        "value": 10
+        "value": 16
       },
       {
         "group": "AÇÕES DESENVOLVIDAS",
@@ -7409,7 +7409,7 @@
       {
         "group": "AÇÕES DESENVOLVIDAS",
         "metric": "USO DO ETILÔMETRO",
-        "value": 10
+        "value": 0
       },
       {
         "group": "RESULTADOS ALCANÇADOS",
@@ -7419,12 +7419,12 @@
       {
         "group": "RESULTADOS ALCANÇADOS",
         "metric": "TCO",
-        "value": 0
+        "value": 2
       },
       {
         "group": "RESULTADOS ALCANÇADOS",
         "metric": "CONDUZIDOS A DP",
-        "value": 0
+        "value": 2
       },
       {
         "group": "RESULTADOS ALCANÇADOS",
@@ -7434,7 +7434,7 @@
       {
         "group": "RESULTADOS ALCANÇADOS",
         "metric": "ARMAS BRANCAS APREENDIDAS",
-        "value": 0
+        "value": 1
       },
       {
         "group": "RESULTADOS ALCANÇADOS",
@@ -7449,7 +7449,7 @@
       {
         "group": "PRINCIPAIS OCORRÊNCIAS",
         "metric": "ROUBO DE CELULAR",
-        "value": 0
+        "value": 1
       },
       {
         "group": "PRINCIPAIS OCORRÊNCIAS",
@@ -7484,7 +7484,7 @@
       {
         "group": "PRINCIPAIS OCORRÊNCIAS",
         "metric": "VIAS DE FATO",
-        "value": 0
+        "value": 2
       }
     ],
     "sourceType": "local",
