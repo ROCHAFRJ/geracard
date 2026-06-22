@@ -6767,7 +6767,7 @@
     "subtitle": "SÃO JOÃO DE IRECÊ 2026",
     "metrics": {
       "EFETIVO": 111,
-      "PATRULHAS EMPREGADAS": 14,
+      "PATRULHAS EMPREGADAS": 19,
       "PÚBLICO ESTIMADO": 92000,
       "PESSOAS ABORDADAS": 450,
       "VEÍCULOS 2 ABORDADOS": 35,
@@ -6799,7 +6799,7 @@
       {
         "group": "ESFORÇO EMPREGADO",
         "metric": "PATRULHAS EMPREGADAS",
-        "value": 14
+        "value": 19
       },
       {
         "group": "ESFORÇO EMPREGADO",
@@ -6910,7 +6910,7 @@
     "sourceType": "local",
     "highlights": {
       "efetivo": 111,
-      "patrulhas": 14,
+      "patrulhas": 19,
       "publico": 92000
     }
   },
