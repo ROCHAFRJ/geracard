@@ -6768,7 +6768,7 @@
     "metrics": {
       "EFETIVO": 111,
       "PATRULHAS EMPREGADAS": 14,
-      "PÚBLICO ESTIMADO": 83000,
+      "PÚBLICO ESTIMADO": 92000,
       "PESSOAS ABORDADAS": 450,
       "VEÍCULOS 2 ABORDADOS": 35,
       "VEÍCULOS 4 ABORDADOS": 53,
@@ -6804,7 +6804,7 @@
       {
         "group": "ESFORÇO EMPREGADO",
         "metric": "PÚBLICO ESTIMADO",
-        "value": 83000
+        "value": 92000
       },
       {
         "group": "AÇÕES DESENVOLVIDAS",
@@ -6911,7 +6911,7 @@
     "highlights": {
       "efetivo": 111,
       "patrulhas": 14,
-      "publico": 83000
+      "publico": 92000
     }
   },
   {
