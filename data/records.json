@@ -6766,8 +6766,8 @@
     "dateLabel": "21/06/2026",
     "subtitle": "SÃO JOÃO DE IRECÊ 2026",
     "metrics": {
-      "EFETIVO": 89,
-      "PATRULHAS EMPREGADAS": 10,
+      "EFETIVO": 111,
+      "PATRULHAS EMPREGADAS": 14,
       "PÚBLICO ESTIMADO": 75000,
       "PESSOAS ABORDADAS": 147,
       "VEÍCULOS 2 ABORDADOS": 15,
@@ -6794,12 +6794,12 @@
       {
         "group": "ESFORÇO EMPREGADO",
         "metric": "EFETIVO",
-        "value": 89
+        "value": 111
       },
       {
         "group": "ESFORÇO EMPREGADO",
         "metric": "PATRULHAS EMPREGADAS",
-        "value": 10
+        "value": 14
       },
       {
         "group": "ESFORÇO EMPREGADO",
@@ -6909,8 +6909,8 @@
     ],
     "sourceType": "local",
     "highlights": {
-      "efetivo": 89,
-      "patrulhas": 10,
+      "efetivo": 111,
+      "patrulhas": 14,
       "publico": 75000
     }
   },
