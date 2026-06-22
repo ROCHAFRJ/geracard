@@ -7672,9 +7672,9 @@
     "sheetName": "CPR-CN",
     "subtitle": "SÃO JOÃO REGIONAL",
     "metrics": {
-      "EFETIVO": 0,
-      "PATRULHAS EMPREGADAS": 0,
-      "PÚBLICO ESTIMADO": 0,
+      "EFETIVO": 89,
+      "PATRULHAS EMPREGADAS": 13,
+      "PÚBLICO ESTIMADO": 95000,
       "PESSOAS ABORDADAS": 0,
       "VEÍCULOS 2 ABORDADOS": 0,
       "VEÍCULOS 4 ABORDADOS": 0,
@@ -7700,17 +7700,17 @@
       {
         "group": "ESFORÇO EMPREGADO",
         "metric": "EFETIVO",
-        "value": 0
+        "value": 89
       },
       {
         "group": "ESFORÇO EMPREGADO",
         "metric": "PATRULHAS EMPREGADAS",
-        "value": 0
+        "value": 13
       },
       {
         "group": "ESFORÇO EMPREGADO",
         "metric": "PÚBLICO ESTIMADO",
-        "value": 0
+        "value": 95000
       },
       {
         "group": "AÇÕES DESENVOLVIDAS",
@@ -7815,9 +7815,9 @@
     ],
     "sourceType": "local",
     "highlights": {
-      "efetivo": 0,
-      "patrulhas": 0,
-      "publico": 0
+      "efetivo": 89,
+      "patrulhas": 13,
+      "publico": 95000
     }
   }
 ]
