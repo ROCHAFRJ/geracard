@@ -7072,17 +7072,17 @@
     }
   },
   {
-    "id": "CPR-CN-2026-06-23",
-    "sheetName": "CPR-CN",
+    "id": "local-2026-06-23-93y6q",
+    "sheetName": "7º BPM",
     "operationTitle": "SÃO JOÃO DE IRECÊ 2026",
-    "category": "Evento Especial",
+    "category": "São João",
     "dateISO": "2026-06-23",
     "dateLabel": "23/06/2026",
     "subtitle": "SÃO JOÃO DE IRECÊ 2026",
     "metrics": {
-      "EFETIVO": 0,
-      "PATRULHAS EMPREGADAS": 0,
-      "PÚBLICO ESTIMADO": 0,
+      "EFETIVO": 27,
+      "PATRULHAS EMPREGADAS": 6,
+      "PÚBLICO ESTIMADO": 95,
       "PESSOAS ABORDADAS": 0,
       "VEÍCULOS 2 ABORDADOS": 0,
       "VEÍCULOS 4 ABORDADOS": 0,
@@ -7100,23 +7100,25 @@
       "LATROCÍNIO": 0,
       "TENTATIVA DE HOMICÍDIO": 0,
       "LESÃO CORPORAL": 0,
-      "VIAS DE FATO": 0
+      "VIAS DE FATO": 0,
+      "VEÍCULOS REMOVIDOS": 0,
+      "ARMAS BRANCAS APREENDIDAS": 0
     },
     "groupedMetrics": [
       {
         "group": "ESFORÇO EMPREGADO",
         "metric": "EFETIVO",
-        "value": 0
+        "value": 27
       },
       {
         "group": "ESFORÇO EMPREGADO",
         "metric": "PATRULHAS EMPREGADAS",
-        "value": 0
+        "value": 6
       },
       {
         "group": "ESFORÇO EMPREGADO",
         "metric": "PÚBLICO ESTIMADO",
-        "value": 0
+        "value": 95
       },
       {
         "group": "AÇÕES DESENVOLVIDAS",
@@ -7131,6 +7133,11 @@
       {
         "group": "AÇÕES DESENVOLVIDAS",
         "metric": "VEÍCULOS 4 ABORDADOS",
+        "value": 0
+      },
+      {
+        "group": "AÇÕES DESENVOLVIDAS",
+        "metric": "VEÍCULOS REMOVIDOS",
         "value": 0
       },
       {
@@ -7160,60 +7167,65 @@
       },
       {
         "group": "RESULTADOS ALCANÇADOS",
+        "metric": "ARMAS BRANCAS APREENDIDAS",
+        "value": 0
+      },
+      {
+        "group": "RESULTADOS ALCANÇADOS",
         "metric": "DROGAS APREENDIDAS",
         "value": 0
       },
       {
-        "group": "CRIMES CONTRA O PATRIMÔMIO",
+        "group": "PRINCIPAIS OCORRÊNCIAS",
         "metric": "ROUBO",
         "value": 0
       },
       {
-        "group": "CRIMES CONTRA O PATRIMÔMIO",
+        "group": "PRINCIPAIS OCORRÊNCIAS",
         "metric": "ROUBO DE CELULAR",
         "value": 0
       },
       {
-        "group": "CRIMES CONTRA O PATRIMÔMIO",
+        "group": "PRINCIPAIS OCORRÊNCIAS",
         "metric": "FURTO",
         "value": 0
       },
       {
-        "group": "CRIMES CONTRA O PATRIMÔMIO",
+        "group": "PRINCIPAIS OCORRÊNCIAS",
         "metric": "FURTO DE CELULAR",
         "value": 0
       },
       {
-        "group": "CRIMES CONTRA A PESSOA",
+        "group": "PRINCIPAIS OCORRÊNCIAS",
         "metric": "HOMICÍDIO",
         "value": 0
       },
       {
-        "group": "CRIMES CONTRA A PESSOA",
+        "group": "PRINCIPAIS OCORRÊNCIAS",
         "metric": "LATROCÍNIO",
         "value": 0
       },
       {
-        "group": "CRIMES CONTRA A PESSOA",
+        "group": "PRINCIPAIS OCORRÊNCIAS",
         "metric": "TENTATIVA DE HOMICÍDIO",
         "value": 0
       },
       {
-        "group": "CRIMES CONTRA A PESSOA",
+        "group": "PRINCIPAIS OCORRÊNCIAS",
         "metric": "LESÃO CORPORAL",
         "value": 0
       },
       {
-        "group": "CRIMES CONTRA A PESSOA",
+        "group": "PRINCIPAIS OCORRÊNCIAS",
         "metric": "VIAS DE FATO",
         "value": 0
       }
     ],
-    "sourceType": "base",
+    "sourceType": "local",
     "highlights": {
-      "efetivo": 0,
-      "patrulhas": 0,
-      "publico": 0
+      "efetivo": 27,
+      "patrulhas": 6,
+      "publico": 95
     }
   },
   {
