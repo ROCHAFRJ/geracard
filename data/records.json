@@ -6923,22 +6923,22 @@
     "dateLabel": "22/06/2026",
     "subtitle": "SÃO JOÃO DE IRECÊ 2026",
     "metrics": {
-      "EFETIVO": 89,
-      "PATRULHAS EMPREGADAS": 13,
-      "PÚBLICO ESTIMADO": 95000,
-      "PESSOAS ABORDADAS": 120,
-      "VEÍCULOS 2 ABORDADOS": 20,
-      "VEÍCULOS 4 ABORDADOS": 19,
-      "USO DO ETILÔMETRO": 12,
+      "EFETIVO": 187,
+      "PATRULHAS EMPREGADAS": 20,
+      "PÚBLICO ESTIMADO": 119,
+      "PESSOAS ABORDADAS": 430,
+      "VEÍCULOS 2 ABORDADOS": 38,
+      "VEÍCULOS 4 ABORDADOS": 57,
+      "USO DO ETILÔMETRO": 63,
       "FLAGRANTE": 0,
-      "TCO": 1,
-      "CONDUZIDOS A DP": 1,
+      "TCO": 0,
+      "CONDUZIDOS A DP": 0,
       "ARMAS DE FOGO APREENDIDAS": 0,
       "DROGAS APREENDIDAS": 0,
       "ROUBO": 0,
       "ROUBO DE CELULAR": 0,
       "FURTO": 0,
-      "FURTO DE CELULAR": 2,
+      "FURTO DE CELULAR": 4,
       "HOMICÍDIO": 0,
       "LATROCÍNIO": 0,
       "TENTATIVA DE HOMICÍDIO": 0,
@@ -6951,32 +6951,32 @@
       {
         "group": "ESFORÇO EMPREGADO",
         "metric": "EFETIVO",
-        "value": 89
+        "value": 187
       },
       {
         "group": "ESFORÇO EMPREGADO",
         "metric": "PATRULHAS EMPREGADAS",
-        "value": 13
+        "value": 20
       },
       {
         "group": "ESFORÇO EMPREGADO",
         "metric": "PÚBLICO ESTIMADO",
-        "value": 95000
+        "value": 119
       },
       {
         "group": "AÇÕES DESENVOLVIDAS",
         "metric": "PESSOAS ABORDADAS",
-        "value": 120
+        "value": 430
       },
       {
         "group": "AÇÕES DESENVOLVIDAS",
         "metric": "VEÍCULOS 2 ABORDADOS",
-        "value": 20
+        "value": 38
       },
       {
         "group": "AÇÕES DESENVOLVIDAS",
         "metric": "VEÍCULOS 4 ABORDADOS",
-        "value": 19
+        "value": 57
       },
       {
         "group": "AÇÕES DESENVOLVIDAS",
@@ -6986,7 +6986,7 @@
       {
         "group": "AÇÕES DESENVOLVIDAS",
         "metric": "USO DO ETILÔMETRO",
-        "value": 12
+        "value": 63
       },
       {
         "group": "RESULTADOS ALCANÇADOS",
@@ -6996,12 +6996,12 @@
       {
         "group": "RESULTADOS ALCANÇADOS",
         "metric": "TCO",
-        "value": 1
+        "value": 0
       },
       {
         "group": "RESULTADOS ALCANÇADOS",
         "metric": "CONDUZIDOS A DP",
-        "value": 1
+        "value": 0
       },
       {
         "group": "RESULTADOS ALCANÇADOS",
@@ -7036,7 +7036,7 @@
       {
         "group": "PRINCIPAIS OCORRÊNCIAS",
         "metric": "FURTO DE CELULAR",
-        "value": 2
+        "value": 4
       },
       {
         "group": "PRINCIPAIS OCORRÊNCIAS",
@@ -7066,9 +7066,9 @@
     ],
     "sourceType": "local",
     "highlights": {
-      "efetivo": 89,
-      "patrulhas": 13,
-      "publico": 95000
+      "efetivo": 187,
+      "patrulhas": 20,
+      "publico": 119
     }
   },
   {
