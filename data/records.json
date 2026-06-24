@@ -7095,7 +7095,7 @@
       "ROUBO": 0,
       "ROUBO DE CELULAR": 0,
       "FURTO": 0,
-      "FURTO DE CELULAR": 0,
+      "FURTO DE CELULAR": 3,
       "HOMICÍDIO": 0,
       "LATROCÍNIO": 0,
       "TENTATIVA DE HOMICÍDIO": 0,
@@ -7193,7 +7193,7 @@
       {
         "group": "PRINCIPAIS OCORRÊNCIAS",
         "metric": "FURTO DE CELULAR",
-        "value": 0
+        "value": 3
       },
       {
         "group": "PRINCIPAIS OCORRÊNCIAS",
