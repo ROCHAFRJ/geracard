@@ -7854,23 +7854,23 @@
     "subtitle": "SÃO JOÃO REGIONAL",
     "metrics": {
       "EFETIVO": 130,
-      "PATRULHAS EMPREGADAS": 29,
+      "PATRULHAS EMPREGADAS": 23,
       "PÚBLICO ESTIMADO": 95000,
-      "PESSOAS ABORDADAS": 0,
-      "VEÍCULOS 2 ABORDADOS": 0,
-      "VEÍCULOS 4 ABORDADOS": 0,
+      "PESSOAS ABORDADAS": 439,
+      "VEÍCULOS 2 ABORDADOS": 105,
+      "VEÍCULOS 4 ABORDADOS": 72,
       "VEÍCULOS REMOVIDOS": 0,
-      "USO DO ETILÔMETRO": 0,
+      "USO DO ETILÔMETRO": 62,
       "FLAGRANTE": 0,
-      "TCO": 0,
-      "CONDUZIDOS A DP": 0,
+      "TCO": 1,
+      "CONDUZIDOS A DP": 3,
       "ARMAS DE FOGO APREENDIDAS": 0,
-      "ARMAS BRANCAS APREENDIDAS": 0,
+      "ARMAS BRANCAS APREENDIDAS": 1,
       "DROGAS APREENDIDAS": 0,
       "ROUBO": 0,
       "ROUBO DE CELULAR": 0,
       "FURTO": 0,
-      "FURTO DE CELULAR": 0,
+      "FURTO DE CELULAR": 3,
       "HOMICÍDIO": 0,
       "LATROCÍNIO": 0,
       "TENTATIVA DE HOMICÍDIO": 0,
@@ -7886,7 +7886,7 @@
       {
         "group": "ESFORÇO EMPREGADO",
         "metric": "PATRULHAS EMPREGADAS",
-        "value": 29
+        "value": 23
       },
       {
         "group": "ESFORÇO EMPREGADO",
@@ -7896,17 +7896,17 @@
       {
         "group": "AÇÕES DESENVOLVIDAS",
         "metric": "PESSOAS ABORDADAS",
-        "value": 0
+        "value": 439
       },
       {
         "group": "AÇÕES DESENVOLVIDAS",
         "metric": "VEÍCULOS 2 ABORDADOS",
-        "value": 0
+        "value": 105
       },
       {
         "group": "AÇÕES DESENVOLVIDAS",
         "metric": "VEÍCULOS 4 ABORDADOS",
-        "value": 0
+        "value": 72
       },
       {
         "group": "AÇÕES DESENVOLVIDAS",
@@ -7916,7 +7916,7 @@
       {
         "group": "AÇÕES DESENVOLVIDAS",
         "metric": "USO DO ETILÔMETRO",
-        "value": 0
+        "value": 62
       },
       {
         "group": "RESULTADOS ALCANÇADOS",
@@ -7926,12 +7926,12 @@
       {
         "group": "RESULTADOS ALCANÇADOS",
         "metric": "TCO",
-        "value": 0
+        "value": 1
       },
       {
         "group": "RESULTADOS ALCANÇADOS",
         "metric": "CONDUZIDOS A DP",
-        "value": 0
+        "value": 3
       },
       {
         "group": "RESULTADOS ALCANÇADOS",
@@ -7941,7 +7941,7 @@
       {
         "group": "RESULTADOS ALCANÇADOS",
         "metric": "ARMAS BRANCAS APREENDIDAS",
-        "value": 0
+        "value": 1
       },
       {
         "group": "RESULTADOS ALCANÇADOS",
@@ -7966,7 +7966,7 @@
       {
         "group": "PRINCIPAIS OCORRÊNCIAS",
         "metric": "FURTO DE CELULAR",
-        "value": 0
+        "value": 3
       },
       {
         "group": "PRINCIPAIS OCORRÊNCIAS",
@@ -7997,7 +7997,7 @@
     "sourceType": "local",
     "highlights": {
       "efetivo": 130,
-      "patrulhas": 29,
+      "patrulhas": 23,
       "publico": 95000
     }
   }
