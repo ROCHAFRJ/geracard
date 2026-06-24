@@ -7243,7 +7243,7 @@
       "PESSOAS ABORDADAS": 456,
       "VEÍCULOS 2 ABORDADOS": 42,
       "VEÍCULOS 4 ABORDADOS": 68,
-      "USO DO ETILÔMETRO": 0,
+      "USO DO ETILÔMETRO": 28,
       "FLAGRANTE": 0,
       "TCO": 0,
       "CONDUZIDOS A DP": 0,
@@ -7300,7 +7300,7 @@
       {
         "group": "AÇÕES DESENVOLVIDAS",
         "metric": "USO DO ETILÔMETRO",
-        "value": 0
+        "value": 28
       },
       {
         "group": "RESULTADOS ALCANÇADOS",
