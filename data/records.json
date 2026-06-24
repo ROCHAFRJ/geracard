@@ -7857,12 +7857,12 @@
       "PATRULHAS EMPREGADAS": 23,
       "PÚBLICO ESTIMADO": 95000,
       "PESSOAS ABORDADAS": 439,
-      "VEÍCULOS 2 ABORDADOS": 105,
-      "VEÍCULOS 4 ABORDADOS": 72,
+      "VEÍCULOS 2 ABORDADOS": 72,
+      "VEÍCULOS 4 ABORDADOS": 105,
       "VEÍCULOS REMOVIDOS": 0,
-      "USO DO ETILÔMETRO": 62,
-      "FLAGRANTE": 0,
-      "TCO": 1,
+      "USO DO ETILÔMETRO": 58,
+      "FLAGRANTE": 1,
+      "TCO": 2,
       "CONDUZIDOS A DP": 3,
       "ARMAS DE FOGO APREENDIDAS": 0,
       "ARMAS BRANCAS APREENDIDAS": 1,
@@ -7901,12 +7901,12 @@
       {
         "group": "AÇÕES DESENVOLVIDAS",
         "metric": "VEÍCULOS 2 ABORDADOS",
-        "value": 105
+        "value": 72
       },
       {
         "group": "AÇÕES DESENVOLVIDAS",
         "metric": "VEÍCULOS 4 ABORDADOS",
-        "value": 72
+        "value": 105
       },
       {
         "group": "AÇÕES DESENVOLVIDAS",
@@ -7916,17 +7916,17 @@
       {
         "group": "AÇÕES DESENVOLVIDAS",
         "metric": "USO DO ETILÔMETRO",
-        "value": 62
+        "value": 58
       },
       {
         "group": "RESULTADOS ALCANÇADOS",
         "metric": "FLAGRANTE",
-        "value": 0
+        "value": 1
       },
       {
         "group": "RESULTADOS ALCANÇADOS",
         "metric": "TCO",
-        "value": 1
+        "value": 2
       },
       {
         "group": "RESULTADOS ALCANÇADOS",
