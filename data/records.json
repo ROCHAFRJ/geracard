@@ -7244,15 +7244,15 @@
       "VEÍCULOS 2 ABORDADOS": 42,
       "VEÍCULOS 4 ABORDADOS": 68,
       "USO DO ETILÔMETRO": 28,
-      "FLAGRANTE": 0,
+      "FLAGRANTE": 1,
       "TCO": 0,
-      "CONDUZIDOS A DP": 0,
+      "CONDUZIDOS A DP": 1,
       "ARMAS DE FOGO APREENDIDAS": 0,
       "DROGAS APREENDIDAS": 0,
       "ROUBO": 0,
       "ROUBO DE CELULAR": 0,
       "FURTO": 0,
-      "FURTO DE CELULAR": 1,
+      "FURTO DE CELULAR": 2,
       "HOMICÍDIO": 0,
       "LATROCÍNIO": 0,
       "TENTATIVA DE HOMICÍDIO": 0,
@@ -7305,7 +7305,7 @@
       {
         "group": "RESULTADOS ALCANÇADOS",
         "metric": "FLAGRANTE",
-        "value": 0
+        "value": 1
       },
       {
         "group": "RESULTADOS ALCANÇADOS",
@@ -7315,7 +7315,7 @@
       {
         "group": "RESULTADOS ALCANÇADOS",
         "metric": "CONDUZIDOS A DP",
-        "value": 0
+        "value": 1
       },
       {
         "group": "RESULTADOS ALCANÇADOS",
@@ -7350,7 +7350,7 @@
       {
         "group": "PRINCIPAIS OCORRÊNCIAS",
         "metric": "FURTO DE CELULAR",
-        "value": 1
+        "value": 2
       },
       {
         "group": "PRINCIPAIS OCORRÊNCIAS",
