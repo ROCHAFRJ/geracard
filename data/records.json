@@ -7246,7 +7246,7 @@
       "USO DO ETILÔMETRO": 28,
       "FLAGRANTE": 0,
       "TCO": 0,
-      "CONDUZIDOS A DP": 1,
+      "CONDUZIDOS A DP": 3,
       "ARMAS DE FOGO APREENDIDAS": 0,
       "DROGAS APREENDIDAS": 0,
       "ROUBO": 0,
@@ -7315,7 +7315,7 @@
       {
         "group": "RESULTADOS ALCANÇADOS",
         "metric": "CONDUZIDOS A DP",
-        "value": 1
+        "value": 3
       },
       {
         "group": "RESULTADOS ALCANÇADOS",
