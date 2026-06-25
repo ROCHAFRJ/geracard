@@ -8082,60 +8082,9 @@
     }
   },
   {
-    "id": "local-1782394338153",
-    "dateISO": "2024-06-22",
-    "dateLabel": "22/06/2024",
-    "operationTitle": "Novo registro operacional",
-    "category": "Evento Especial",
-    "sheetName": "LOCAL",
-    "subtitle": "Novo cadastro local",
-    "metrics": {},
-    "groupedMetrics": [],
-    "sourceType": "local",
-    "highlights": {
-      "efetivo": 0,
-      "patrulhas": 0,
-      "publico": 0
-    }
-  },
-  {
-    "id": "local-1782394340180",
-    "dateISO": "2024-06-22",
-    "dateLabel": "22/06/2024",
-    "operationTitle": "Novo registro operacional",
-    "category": "Evento Especial",
-    "sheetName": "LOCAL",
-    "subtitle": "Novo cadastro local",
-    "metrics": {},
-    "groupedMetrics": [],
-    "sourceType": "local",
-    "highlights": {
-      "efetivo": 0,
-      "patrulhas": 0,
-      "publico": 0
-    }
-  },
-  {
-    "id": "local-1782394340389",
-    "dateISO": "2024-06-22",
-    "dateLabel": "22/06/2024",
-    "operationTitle": "Novo registro operacional",
-    "category": "Evento Especial",
-    "sheetName": "LOCAL",
-    "subtitle": "Novo cadastro local",
-    "metrics": {},
-    "groupedMetrics": [],
-    "sourceType": "local",
-    "highlights": {
-      "efetivo": 0,
-      "patrulhas": 0,
-      "publico": 0
-    }
-  },
-  {
-    "id": "local-1782394345719",
-    "dateISO": "2021-12-12",
-    "dateLabel": "12/12/2021",
+    "id": "local-1782394343253",
+    "dateISO": "2026-06-19",
+    "dateLabel": "19/06/2026",
     "operationTitle": "Novo registro operacional",
     "category": "Evento Especial",
     "sheetName": "LOCAL",
