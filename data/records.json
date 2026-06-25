@@ -8131,5 +8131,22 @@
       "patrulhas": 0,
       "publico": 0
     }
+  },
+  {
+    "id": "local-1782394345719",
+    "dateISO": "2021-12-12",
+    "dateLabel": "12/12/2021",
+    "operationTitle": "Novo registro operacional",
+    "category": "Evento Especial",
+    "sheetName": "LOCAL",
+    "subtitle": "Novo cadastro local",
+    "metrics": {},
+    "groupedMetrics": [],
+    "sourceType": "local",
+    "highlights": {
+      "efetivo": 0,
+      "patrulhas": 0,
+      "publico": 0
+    }
   }
 ]
