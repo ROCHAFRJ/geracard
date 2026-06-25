@@ -8291,19 +8291,159 @@
   },
   {
     "id": "local-1782398293380",
-    "dateISO": "2021-12-12",
-    "dateLabel": "12/12/2021",
-    "operationTitle": "Novo registro operacional",
+    "dateISO": "2026-06-25",
+    "dateLabel": "25/06/2026",
+    "operationTitle": "OPERAÇÃO SÃO JOÃO DE IRECÊ",
     "category": "Evento Especial",
-    "sheetName": "LOCAL",
-    "subtitle": "Novo cadastro local",
-    "metrics": {},
-    "groupedMetrics": [],
+    "sheetName": "CPR CN",
+    "subtitle": "OPERAÇÃO SÃO JOÃO DE IRECÊ",
+    "metrics": {
+      "EFETIVO": 200,
+      "PATRULHAS EMPREGADAS": 20,
+      "PÚBLICO ESTIMADO": 100000,
+      "PESSOAS ABORDADAS": 2417,
+      "VEÍCULOS 2 ABORDADOS": 233,
+      "VEÍCULOS 4 ABORDADOS": 406,
+      "VEÍCULOS REMOVIDOS": 0,
+      "USO DO ETILÔMETRO": 265,
+      "FLAGRANTE": 5,
+      "TCO": 7,
+      "CONDUZIDOS A DP": 12,
+      "ARMAS DE FOGO APREENDIDAS": 0,
+      "ARMAS BRANCAS APREENDIDAS": 4,
+      "DROGAS APREENDIDAS": 0,
+      "ROUBO": 0,
+      "ROUBO DE CELULAR": 0,
+      "FURTO": 0,
+      "FURTO DE CELULAR": 25,
+      "HOMICÍDIO": 0,
+      "LATROCÍNIO": 0,
+      "TENTATIVA DE HOMICÍDIO": 0,
+      "LESÃO CORPORAL": 1,
+      "VIAS DE FATO": 1
+    },
+    "groupedMetrics": [
+      {
+        "group": "ESFORÇO EMPREGADO",
+        "metric": "EFETIVO",
+        "value": 200
+      },
+      {
+        "group": "ESFORÇO EMPREGADO",
+        "metric": "PATRULHAS EMPREGADAS",
+        "value": 20
+      },
+      {
+        "group": "ESFORÇO EMPREGADO",
+        "metric": "PÚBLICO ESTIMADO",
+        "value": 100000
+      },
+      {
+        "group": "AÇÕES DESENVOLVIDAS",
+        "metric": "PESSOAS ABORDADAS",
+        "value": 2417
+      },
+      {
+        "group": "AÇÕES DESENVOLVIDAS",
+        "metric": "VEÍCULOS 2 ABORDADOS",
+        "value": 233
+      },
+      {
+        "group": "AÇÕES DESENVOLVIDAS",
+        "metric": "VEÍCULOS 4 ABORDADOS",
+        "value": 406
+      },
+      {
+        "group": "AÇÕES DESENVOLVIDAS",
+        "metric": "VEÍCULOS REMOVIDOS",
+        "value": 0
+      },
+      {
+        "group": "AÇÕES DESENVOLVIDAS",
+        "metric": "USO DO ETILÔMETRO",
+        "value": 265
+      },
+      {
+        "group": "RESULTADOS ALCANÇADOS",
+        "metric": "FLAGRANTE",
+        "value": 5
+      },
+      {
+        "group": "RESULTADOS ALCANÇADOS",
+        "metric": "TCO",
+        "value": 7
+      },
+      {
+        "group": "RESULTADOS ALCANÇADOS",
+        "metric": "CONDUZIDOS A DP",
+        "value": 12
+      },
+      {
+        "group": "RESULTADOS ALCANÇADOS",
+        "metric": "ARMAS DE FOGO APREENDIDAS",
+        "value": 0
+      },
+      {
+        "group": "RESULTADOS ALCANÇADOS",
+        "metric": "ARMAS BRANCAS APREENDIDAS",
+        "value": 4
+      },
+      {
+        "group": "RESULTADOS ALCANÇADOS",
+        "metric": "DROGAS APREENDIDAS",
+        "value": 0
+      },
+      {
+        "group": "PRINCIPAIS OCORRÊNCIAS",
+        "metric": "ROUBO",
+        "value": 0
+      },
+      {
+        "group": "PRINCIPAIS OCORRÊNCIAS",
+        "metric": "ROUBO DE CELULAR",
+        "value": 0
+      },
+      {
+        "group": "PRINCIPAIS OCORRÊNCIAS",
+        "metric": "FURTO",
+        "value": 0
+      },
+      {
+        "group": "PRINCIPAIS OCORRÊNCIAS",
+        "metric": "FURTO DE CELULAR",
+        "value": 25
+      },
+      {
+        "group": "PRINCIPAIS OCORRÊNCIAS",
+        "metric": "HOMICÍDIO",
+        "value": 0
+      },
+      {
+        "group": "PRINCIPAIS OCORRÊNCIAS",
+        "metric": "LATROCÍNIO",
+        "value": 0
+      },
+      {
+        "group": "PRINCIPAIS OCORRÊNCIAS",
+        "metric": "TENTATIVA DE HOMICÍDIO",
+        "value": 0
+      },
+      {
+        "group": "PRINCIPAIS OCORRÊNCIAS",
+        "metric": "LESÃO CORPORAL",
+        "value": 1
+      },
+      {
+        "group": "PRINCIPAIS OCORRÊNCIAS",
+        "metric": "VIAS DE FATO",
+        "value": 1
+      }
+    ],
     "sourceType": "local",
     "highlights": {
-      "efetivo": 0,
-      "patrulhas": 0,
-      "publico": 0
+      "efetivo": 200,
+      "patrulhas": 20,
+      "publico": 100000
     }
   }
 ]
